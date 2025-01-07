@@ -4,12 +4,12 @@ Technitium + Wireguard Debian 12
 Wireguard nos permite tener acceso remoto a un equipo o ip por ejemplo a las DNS
 Technitium es un servidor DNS que ademas incluye el bloqueo de publicidad por medio listas y del dns.
 
-´´´
+
 apt update
 apt install sudo dnsutils curl -y
 wget -O wireguard.sh https://get.vpnsetup.net/wg
 sudo bash wireguard.sh
-´´´
+
 
 ´´´
 curl -sSL https://download.technitium.com/dns/install.sh | sudo bash
