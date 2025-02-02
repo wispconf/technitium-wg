@@ -7,9 +7,19 @@ Technitium es un servidor DNS que ademas incluye el bloqueo de publicidad por me
 ## Instalacion Wireguard
 ```
 apt update && apt install sudo dnsutils curl -y
+```
+
+```
 wget -O wireguard.sh https://get.vpnsetup.net/wg
+```
+```
 sudo bash wireguard.sh
 ```
+- Para agregar nuevos clientes
+```
+sudo bash wireguard.sh
+```
+Recuerda que las dns que debemos agregar son tipo *custom*  ***10.7.0.1*** 
 
 ## Instalacion de technitium
 ```
